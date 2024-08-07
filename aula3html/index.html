@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    
+    <h1>Formulário</h1>
+    <form>
+
+    <label for="nome">Digite seu nome:</label>
+    <input type="text" name="nome" placeholder="Digite seu nome...">
+    <br>
+    <br>
+    <label for="meuemail">Digite seu email:</label>
+    <input type="email" nome="email">
+    <br>
+    <br>
+    <label for="senha">Digite sua senha</label>
+    <input type="password" name="senha">
+    <br>
+    <br>
+    <label for="dr_nasc">Data de nascimento</label>
+    <input type="date">
+    <input type="datetime-local">
+    <input type="time">
+    <br>
+    <br>
+    <label for="Telefone">Telefone</label>
+    <input type="tel" name="Telefone">
+    <br>
+    <br>
+    <label for="botao">Botão</label>
+    <input type="button" nome="botao" value="Oi">
+    <br>
+    <br>
+    
+    <label for="textao">Textão</label>
+    <textarea name="textao" placeholder="insira um texto..."> </textarea>
+    <br>
+    <br>
+    <label for="cor">Cor</label>
+    <input type="color" name="Cor" >
+    <br>
+    <br>
+    <label for="numero">Número:</label>
+    <input type="number" min="-50" max="50" value="3" step="5">
+    
+    <label for="range">Barrarinha:</label>
+    0<input type="range" min="0" max="100" value="20" step="20"> 100
+    <br>
+    <br>
+
+    <label for="escolha">escolha seu curso</label>
+    <br>
+    <br>
+
+    <input type="radio" name="escolha" value="automacao1"> Automação1
+    <input type="radio" name="escolha" value="automacao2"> Automação2
+    <input type="radio" name="escolha" value="automacao3" checked> Automação3
+    <br>
+    <br>
+
+    <label for="caixinha">tecnologicas</label>
+    <br>
+    <br>
+    <input type="checkbox" name="tec1" value="zap"> carro1
+    <input type="checkbox" name="tec2" value="wat"> carro2
+    <input type="checkbox" name="tec3" value="vrum"> carro3
+    <input type="checkbox" name="tec4" value="rodou"> carro4
+    <br>
+    <br>
+
+    <label for="heroi">escolha seu heroi</label>
+    <select name="heroi">
+        <option value="Batman">Batman</option>
+        <option value="Flash">Flash</option>
+        <option value="Kratos">Kratos</option>
+        <option value="KND">KND</option>
+    </select>
+
+    <input type="reset" value="Reset">
+    <input type="submit" value="Acabou">
+    <br>
+    <br>
+
+</form>
+
+</body>
+</html>
