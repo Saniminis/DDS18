@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 3 Formulário elaborado</title>
+</head>
+<body>
+    
+    <h1>Formulário</h1>
+
+    <fieldset>
+    <legend>Dados pessoais</legend>
+    <br>
+    <label>Nome:<input type="text" name="Nome" /></label><br /><br>
+    <label>Endereço:<input type="text" name="Endereco" /></label><br /><br>
+    <label>Cidade:<input type="text" name="Cidade" /></label><br /><br>
+    <label>Estado:
+        <select name="Estado">
+             <option value="em"> São Paulo</option>
+             <option value="nt"> Rio de Janeiro </option>
+             <option value="ns"> Espirito Santo </option>
+         </select>
+         </label>
+        </fieldset>
+
+        <br>
+
+    <fieldset>
+        <legend>Dados profissionais</legend>
+    <p>Natureza do Cargo</p>
+           <input type="radio" name="cargo" value="1" checked> Gerência
+           <input type="radio" name="cargo" value="2" > Financeiro
+           <input type="radio" name="cargo" value="3" > Recepção
+           <input type="radio" name="cargo" value="4" > Administrativo
+           <input type="radio" name="cargo" value="5" > Jurídico
+
+        <br>
+        <br>
+    
+    <p>Área de interesse</p>
+    <input type="checkbox" name="area" value="1" checked> Computção
+    <input type="checkbox" name="area" value="2" > Biologia
+    <input type="checkbox" name="area" value="3" > Meio Ambiente
+    <input type="checkbox" name="area" value="4" > Engenharia
+    <input type="checkbox" name="area" value="5" > História
+
+    <br>
+    <br>
+
+    <p>Mini-curriculo: <textarea name="Mini-curriculo" cols="40" rows="5"></textarea></p>    
+    </fieldset>
+
+    <br><br>
+
+    <button>Enviar</button>  <button>Limpar</button>
+
+</body>
+</html>
