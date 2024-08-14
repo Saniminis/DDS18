@@ -1,0 +1,24 @@
+.azulclaro{background-color: lightblue;}
+
+
+.verdeclaro{background-color: lightgreen;}
+
+
+.imagemfixa{background-image: url(https://i.pinimg.com/originals/a5/13/e6/a513e66b227a668d66f8de2969481666.webp);
+background-repeat: no-repeat; background-attachment: fixed;}
+
+
+.repetevertical{background-image: url(https://i.pinimg.com/originals/a5/13/e6/a513e66b227a668d66f8de2969481666.webp);
+background-repeat: repeat-y;}
+
+
+.naorepete{background-image: url(https://i.pinimg.com/originals/a5/13/e6/a513e66b227a668d66f8de2969481666.webp);
+background-repeat: no-repeat;}
+
+
+.centro{background-image: url(https://i.pinimg.com/originals/a5/13/e6/a513e66b227a668d66f8de2969481666.webp);
+background-repeat: no-repeat; background-position: center;}
+
+
+.amarelo{background-color: yellow; background-image: url(https://i.pinimg.com/originals/a5/13/e6/a513e66b227a668d66f8de2969481666.webp);
+background-repeat: no-repeat; background-position: center; background-attachment: fixed;}
