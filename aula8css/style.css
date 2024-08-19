@@ -1,0 +1,63 @@
+*{
+
+}
+
+body{
+    background-color: gray;
+    height: 600px;
+}
+
+#tudo{
+    background-color: whitesmoke;
+    padding: 5px;
+    display: inline-block;
+}
+
+.quad{
+    height: 150px;
+    width: 150px;
+    margin: 5px 10px;
+}
+
+#quad1{
+    background-color: darkgray;
+    /*flex-shrink: 0; */
+}
+
+#quad2{
+    background-color: black;
+   /* flex-grow: 1;*/
+}
+
+#quad3{
+    background-color: darkslategrey;
+}
+
+#container{
+    background-color: white;
+    padding: 5px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: column wrap;
+    justify-content: center;
+   /* align-items: center;
+    align-content: center;*/
+}
+
+#container2{
+    background-color: blueviolet;
+    padding: 2px;
+    height: 600px;
+    display: grid;
+    /*grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto ; */
+    grid-template: auto auto /1fr 2fr 1fr ;
+    grid-gap: 10px;
+    justify-items: center;
+    align-items: center; 
+    align-content: center;
+}
+
+/* bolsonaro 22 */
