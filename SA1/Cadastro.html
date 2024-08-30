@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Inicial</title>
+    <title>Cadastro de Usuário</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,33 +12,24 @@
             <ul>
                 <li><a href="./Pagina Inicial index.html"><h1>Senai</h1></a></li>
                 <li><a href="sobre.html" class="active"><h1>Sobre</h1></a></li>               
-                <li><a href="./Cadastro.html" class="btn-cadastro"><h1>Cadastrar</h1></a></li>
+                
             </ul>
         </nav>
     </header>
     <main>
-        <section class="hero">
-            <h1>Bem-vindo ao SENAI!</h1>
-        </section>
-        <section class="courses">
-            <h2>Cursos Técnicos</h2>
-            <div class="course-grid">
-                <a href="Mecânica.html" class="course">
-                    <img src="imagens/meca.jpg" alt="Mecânica">
-                    <h3>Mecânica</h3>
-                    <p>Aprenda a reparar e manter veículos.</p>
-                </a>
-                <a href="Eletrotécnica.html" class="course">
-                    <img src="imagens/eletrico.jpg" alt="Eletrotécnica">
-                    <h3>Eletrotécnica</h3>
-                    <p>Aprenda a projetar e instalar sistemas elétricos.</p>
-                </a>
-                <a href="PinturaM.html" class="course">
-                    <img src="imagens/pintur.jpg" alt="Pintura Industrial">
-                    <h3>Pintura Industrial</h3>
-                    <p>Aprenda a criar aplicativos e sistemas de informação.</p>
-                </a>
-            </div>
+        <section class="cadastro">
+            <h1>Cadastro de Usuário</h1>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome"><br><br>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha"><br><br>
+                <label for="confirma-senha">Confirmar Senha:</label>
+                <input type="password" id="confirma-senha" name="confirma-senha"><br><br>
+                <input type="submit" value="Cadastrar">
+            </form>
         </section>
     </main>
     <footer>
